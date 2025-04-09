@@ -219,3 +219,71 @@ body {
     height: auto; /* Adjust as needed */
     z-index: 2; /* Ensures it is above the Portifólio image */
 }
+
+/*Container-card*/
+.Container-card {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center; align-items: center;
+    justify-content: start;
+    width: 19.4375rem;
+    height: 7.9375rem;
+    background-image: linear-gradient(to right, #230055, #8835FF);
+    border-radius: 8px;
+    
+}
+
+/*img-card*/
+.img-card {
+    width: 5rem;
+    height: 5rem;
+}
+
+/*text-container-card*/
+.text-container-card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.text-container-card >h3{
+    font-family: 'Bowlby One', sans-serif;
+    margin-bottom: -14px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: white;
+}
+
+.text-container-card >p {
+    font-family: 'Arya', sans-serif;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    color: white;
+}
+
+.text-container-card >button {
+    width: 5rem;
+    height: 1.405rem;
+    background-color: #000000; opacity: 0.6;;
+    color: white;
+    border-radius: 0.4375rem;
+    border-color: white;
+    border: 0.5px solid white;
+    font-family: 'Arya', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 400;
+    margin-top: 14px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+
+/*projects-line*/
+.projects-line {
+    display: flex;
+    justify-self: start;
+    width: 11.5rem;
+    height: 2.5rem;
+    padding-top: 700px;
+}
