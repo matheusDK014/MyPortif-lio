@@ -23,8 +23,8 @@ body {
     margin-left: 45px; /* Can be removed if not necessary */
 }
 
-/* Text Box and Titles */
-.TextBox {
+/* Helloword */
+.Helloword {
     display: flex;
     position: absolute;
     left: 29px;
@@ -54,8 +54,8 @@ body {
     top: 302px; /* Position below the title */
 }
 
-/* Portfolio Image */
-.Portifólio {
+/* Myport */
+.Myport {
     position: absolute;
     right: 0;
     top: 103px;
@@ -109,8 +109,8 @@ body {
     background-color: rgb(58, 58, 58); /* Fully opaque black on hover */
 }
 
-/* Arrow Button */
-.Seta {
+/* downarrow Button */
+.downarrow {
     position: absolute;
     bottom: 20px; /* Adjusts the distance from the bottom of the page */
     left: 50%; /* Centers horizontally */
@@ -124,7 +124,7 @@ body {
     color: white;
 }
 
-.Seta:hover {
+.downarrow:hover {
     background-color: #000000;
     border-radius: 50%;
 }
