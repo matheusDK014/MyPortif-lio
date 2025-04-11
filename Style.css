@@ -8,9 +8,6 @@ body {
 /* Container Styles */
 .container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100vh;
 }
 
 /* Logo Styles */
@@ -220,12 +217,31 @@ body {
     z-index: 2; /* Ensures it is above the Portifólio image */
 }
 
+/*projects-line*/
+.projects-line {
+    display: flex;
+    justify-self: start;
+    width: 11.5rem;
+    height: 2.5rem;
+}
+
+/*projects-line-text*/
+.projects-line-text {
+    display: flex;
+    justify-self: start;
+    margin-left: 10px;
+    font-family: 'Bowlby One', sans-serif;
+    font-weight: 400;;
+    font-size: 1.125rem;
+    color: white;
+}
+
 /*Container-card*/
 .Container-card {
-    margin-top: 2rem;
     display: flex;
-    justify-content: center; align-items: center;
-    justify-content: start;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 2rem;
     width: 19.4375rem;
     height: 7.9375rem;
     background-image: linear-gradient(to right, #230055, #8835FF);
@@ -276,14 +292,4 @@ body {
     margin-top: 14px;
     bottom: 0;
     cursor: pointer;
-}
-
-
-/*projects-line*/
-.projects-line {
-    display: flex;
-    justify-self: start;
-    width: 11.5rem;
-    height: 2.5rem;
-    padding-top: 700px;
 }

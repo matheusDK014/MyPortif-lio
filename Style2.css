@@ -1,0 +1,84 @@
+/*  Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/*Container*/
+.container {
+    display: flex;
+}
+
+/*Logo-container*/
+.logo-container {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 45px;
+}
+
+/*Top-buttons*/
+.top-buttons {
+    display: flex;
+    position: absolute;
+    right: 35px;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Custom-button2*/
+.custom-button2 {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 15px; /* Adds padding of 15px on each side */
+    height: 103px;
+    margin: 0; /* Removes margin to avoid space between buttons */
+    cursor: pointer;
+    transition: background-color 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-button2:hover {
+    background-color: #6319CD; /* Background color on hover */
+}
+
+/*hire-me-button*/
+.hire-me-button {
+    width: 106px;
+    height: 44px;
+    margin: 15px;
+    background-color: #6319CD;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire-me-button:hover {
+    background-color: #431188; /* Darker shade on hover */
+}
+
+/*Language-button*/
+.language-button {
+    width: 62px;
+    height: 62px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-button:hover {
+    background-color: #520db3; /* Background color on hover */
+}
