@@ -14,7 +14,7 @@ body {
 /*Logo-container*/
 .logo-container {
     display: flex;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-left: 45px;
 }
 
@@ -23,7 +23,7 @@ body {
     display: flex;
     position: absolute;
     align-items: flex-start;
-    right: 0px;
+    right: 15px;
     top: 0;
     flex-direction: row;
     align-items: center;
@@ -71,8 +71,8 @@ body {
 
 /*Language-button*/
 .language-button {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: none;
     border-radius: 7px;
     background-color: black;
@@ -89,9 +89,19 @@ body {
 /*myport-container*/
 .myport-container {
     position: absolute;
-    width: 902px;
-    height: 507px;
-    right: 0;
+    width: auto;
+    height: auto;
+    right: 0px;
     top: 103px;
+    
+}
+
+/*myport-person*/
+.Myport-person {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 0px;
+    top: 93px;
     
 }
