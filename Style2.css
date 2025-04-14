@@ -256,6 +256,7 @@ body {
     
 /*cards*/
 .cards {
+    display: flex;
     width: 321px;
     height: 147px;
     border: none;
@@ -309,16 +310,17 @@ body {
 /*text-container-card*/
 .text-container-card {
     display: flex;
-    height: 100%;
+    justify-content: space-around;
+    height: 140px;
     width: 200px;
     padding-top: 0px;
-    padding-left: 85px;
     flex-direction: column;
 }
 
 .title-card {
     font-family: 'Bowlby One', sans-serif;
     margin-bottom: -10px;
+    height: 20px;;
     font-weight: 100;
     font-size: 20px;
     color: white;
@@ -327,14 +329,21 @@ body {
 
 .paragraph-card {
     font-family: 'Arya', sans-serif;
+    height: 20px;
     font-weight: 100;
     font-size: 10px;
-    line-height: 0.9375rem;
+    line-height: 10px;
     color: white;
     z-index: 1;
 }
 
 .button-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: 17.5%;
     width: 5rem;
     height: 1.405rem;
     background-color: #000000; opacity: 0.6;;
@@ -348,5 +357,4 @@ body {
     margin-top: 14px;
     bottom: 0;
     cursor: pointer;
-    z-index: 1;
 }
