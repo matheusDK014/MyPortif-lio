@@ -247,7 +247,6 @@ body {
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 70px;
-    position: absolute;
     justify-content: flex-start;
     align-content: flex-end;
     padding-top: 640px;
