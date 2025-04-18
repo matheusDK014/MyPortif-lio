@@ -357,3 +357,41 @@ body {
     bottom: 0;
     cursor: pointer;
 }
+
+/*Contact-container*/
+.Contact-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/*contact-style*/
+.contact-style {
+    flex-direction: column;
+    }
+
+/*contact-box*/
+.contact-box {
+    width: auto;
+}
+
+/*contact-button*/
+.contact-button {
+    display: flex;
+}
+
+/*Coment-button*/
+.Coment-button {
+    width: auto;
+    height: auto;
+    background-color: #6319CD;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+

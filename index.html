@@ -23,56 +23,58 @@
              <div class="Helloword">
                <img src="assets/helloword.svg" alt="Helloword" class="Helloword"/>
              </div>
-             <div class="title">Matheus Rodrigues</div>
-             <div class="subtitle">A Professional Web Developer</div>
+             <div class="title" data-translate="cover.title">Matheus Rodrigues</div>
+             <div class="subtitle" data-translate="cover.subtitle" >A Professional Web Developer</div>
              <div class="button-group">
-               <button class="download-cv-button">Download CV</button>
-               <button class="my-work-button">My Work</button>
+                <button class="download-cv-button" data-translate="cover.download">Download CV</button>
+                <button class="my-work-button" data-translate="cover.myWork">My Work</button>
              </div>
        </div>
            <div class="top-buttons">
-           <button class="custom-button2">About Me</button>
-           <button class="custom-button2">Projects</button>
-           <button class="custom-button2">My Dev Language</button>
-           <button class="custom-button2">Blog</button>
-           <button class="custom-button2">Contact Us</button>
-           <button class="hire-me-button">Hire Me!</button>
-           <button class="language-button">
+            <button class="custom-button2" data-translate="navbar.about">About Me</button>
+            <button class="custom-button2" data-translate="navbar.projects">Projects</button>
+            <button class="custom-button2" data-translate="navbar.languages">My Dev Language</button>
+            <button class="custom-button2" data-translate="navbar.blog">Blog</button>
+            <button class="custom-button2" data-translate="navbar.contact">Contact Us</button>
+            <button class="hire-me-button" data-translate="hire">Hire Me!</button>
+            <button class="language-button" id="language-toggle">
                <img class="image-hover" src="assets/language.svg" alt="Language Icon">
            </button>
            </div>
-       <div class=myport-container>
-           <div class="Myport">
-               <img class="Myport-img" src="assets/Myport.svg" alt="">
-               <div class="Myport-person">
-                   <img class="person" src="assets/person.svg" alt="">
-                   <div class="Arrow-container">
-                       <img class="Arrow-button" src="assets/arrow.svg" alt="">
-                   </div>
-               </div>
-           </div>
-        </div>
-    <div>
-</div>
-
-<!-- My-Projects -->
-<div class="My-Projects">
-    <div class="My-Projects-container">
-        <div>
-            <img class="lines" src="assets/Lines.svg" alt="">
-        </div>
-    </div>
-    <div class="line-text-container">
-        <div>
-            <h3 class="line-text">Projects</h3>
-        </div>        
-    </div>
+           <div class=myport-container>
+            <div class="Myport">
+                <img class="Myport-img" src="assets/Myport.svg" alt="">
+                <div class="Myport-person">
+                    <img class="person" src="assets/person.svg" alt="">
+                    <div class="Arrow-container">
+                        <img class="Arrow-button" src="assets/arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+         </div>
+     <div>
+ </div>
+ <!-- My-Projects -->
+ <div class="My-Projects">
+     <div class="My-Projects-container">
+         <div>
+             <img class="lines" src="assets/Lines.svg" alt="">
+         </div>
+     </div>
+     <div class="line-text-container">
+         <div>
+             <h3 class="line-text" data-translate="projects">Projects</h3>
+         </div>        
+     </div>
 </div>
 
 <!--Project-cards-container -->
-<div class="Project-cards-container">
+<div class="Project-cards-container" id="projects">
     <div class="cards">
         <img class="icon-card0" src="assets/T-Shirt.svg" alt="">
+        <script src="content.js"></script>
+        <script src="language-toggle.js"></script>
+        </body>
             <div class="text-container-card">
                 <h3 class="title-card"><strong>DK's Looks</strong></h3>
                 <p class="paragraph-card">The style that keeps up with your rhythm. Dress with attitude. Dress with DK’s Looks!!!</p>
@@ -124,15 +126,15 @@
 <!--Contact-container -->
 <div class="Contact-container">
     <form class="contact-style">
-        <input type="text">
-        <input type="text">
-        <select name="" id="">
+        <input class="contact-box" type="text">
+        <input class="contact-box" type="text">
+        <select class="contact-box" name="" id="">
             <option value="">Seila</option>
             <option value="">Seila2</option>
             <option value="">Seila3</option>
         </select>
-        <textarea name="Comentário" id="Comentário"></textarea>
-        <button>Send</button>
+        <textarea class="contact-box" name="Comentário" id="Comentário"></textarea>
+        <button class="Coment-button">Send</button>
         <img src="assets/Coment-button-style.svg" alt="">
         <img src="assets/Contact-img.svg" alt="">
     </form>
