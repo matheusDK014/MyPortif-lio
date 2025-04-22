@@ -361,22 +361,38 @@ body {
 /*Contact-container*/
 .Contact-container {
     display: grid;
+    flex-direction: column;
+    justify-self: flex-end;
     grid-template-columns: repeat(1, 1fr);
 }
 
 /*contact-style*/
 .contact-style {
-    flex-direction: column;
+    display: block;
     }
 
 /*contact-box*/
 .contact-box {
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 496px;
+    height: 51px;
+    color: gray;
+    background-color: black;
+    border: 1.8px solid #6319CD;
+}
+
+.contact-box-d {
+    width: 496px;
+    height: 51px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 
 /*contact-button*/
 .contact-button {
-    display: flex;
+    display: block;
 }
 
 /*Coment-button*/

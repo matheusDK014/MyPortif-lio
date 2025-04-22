@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Style.css" />
     <link rel="icon" href="assets/Icon.png" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -112,14 +113,6 @@
                 <p class="paragraph-card">Partour - Our goal is to bring passion for music to every note!</p>
                 <button class="button-card">LEARN MORE</button>
             </div>
-        </div>
-        <div class="cards">
-            <img class="icon-card4" src="assets/ParTour.svg" alt="">
-                <div class="text-container-card">
-                    <h3 class="title-card"><strong>PartTour</strong></h3>
-                    <p class="paragraph-card">Partour - Our goal is to bring passion for music to every note!</p>
-                    <button class="button-card">LEARN MORE</button>
-                </div>
     </div>
     <div class="cards">
         <img class="icon-card5" src="assets/Dream Coffee.svg" alt="">
@@ -132,18 +125,22 @@
 </div>
 
 <!--Contact-container -->
-<div class="Contact-container">
-    <form class="contact-style">
-        <input class="contact-box" type="text">
-        <input class="contact-box" type="text">
-        <select class="contact-box" name="" id="">
-            <option value="">Seila</option>
-            <option value="">Seila2</option>
-            <option value="">Seila3</option>
-        </select>
-        <textarea class="contact-box" name="Comentário" id="Comentário"></textarea>
-        <button class="Coment-button">Send</button>
-        <img src="assets/Contact-img.svg" alt="">
-    </form>
+<div>
+    <form class="Contact-container">
 
+        <input class="contact-box" type="text" id="nome" name="nome" placeholder="Nome"><br><br>
+    
+        <input class="contact-box" type="email" id="email" name="email" placeholder="Email"><br><br>
+    
+        <select class="contact-box" id="opcoes" name="opcoes">
+          <option value="">Selecione uma opção</option>
+          <option value="opcao1">Opção 1</option>
+          <option value="opcao2">Opção 2</option>
+          <option value="opcao3">Opção 3</option>
+        </select><br><br>
+    
+        <textarea class="contact-box-d" id="comentario" name="comentario" rows="4" placeholder="Comentário"></textarea><br><br>
+    
+        <button type="submit">Enviar</button>
+      </form>
 </body>
