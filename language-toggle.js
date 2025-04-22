@@ -1,4 +1,4 @@
-let currentLangIndex = 0;
+/*let currentLangIndex = 0;
 const languages = ["en", "pt", "es"];
 
 function updateProjectsLanguage(lang) {
@@ -60,4 +60,4 @@ document.getElementById("language-toggle").addEventListener("click", () => {
 });
 
 updateProjectsLanguage("en");
-updateTranslatedComponents("en");
+updateTranslatedComponents("en"); */

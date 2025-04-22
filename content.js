@@ -1,4 +1,4 @@
-window.content = {
+/*window.content = {
     pt: {
         navbar: {
             about: "Sobre",
@@ -143,4 +143,4 @@ window.content = {
             }
         ]
     }
-};
+}; */
