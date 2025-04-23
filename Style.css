@@ -235,6 +235,7 @@ body {
 
 /*line-text*/
 .line-text {
+    padding-top: 32px;
     font-family: 'Bowlby One', sans-serif;
     font-weight: 500;
     font-size: 25px;
@@ -361,19 +362,19 @@ body {
 /*Contact-container*/
 .Contact-container {
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 80px;
+    padding-top: 100px;
+    grid-gap: -10px;
     flex-direction: column;
     justify-self: flex-end;
     grid-template-columns: repeat(1, 1fr);
 }
 
-/*contact-style*/
-.contact-style {
-    display: block;
-    }
-
 /*contact-box*/
 .contact-box {
     display: grid;
+    padding-left: 5px;
     grid-template-columns: repeat(1, 1fr);
     width: 496px;
     height: 51px;
@@ -383,16 +384,42 @@ body {
 }
 
 .contact-box-d {
-    width: 496px;
+    width: 494px;
     height: 51px;
+    padding-top: 10px;
+    margin-top: -10px;
+    padding-left: 8px;
     color: black;
     background-color: rgb(255, 255, 255);
     border: none;
 }
 
+.contact-box-dd {
+    display: grid;
+    padding-left: 3px;
+    grid-template-columns: repeat(1, 1fr);
+    width: 505px;
+    height: 30px;
+    color: gray;
+    background-color: black;
+    border: 1.8px solid #6319CD;
+}
+
 /*contact-button*/
 .contact-button {
     display: block;
+    width: 502px;
+    height: 34px;
+    background-color: #6319CD;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
 }
 
 /*Coment-button*/
