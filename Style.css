@@ -1,425 +1,313 @@
-/*  Global Styles */
+/* Global Styles */
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    }
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arya', sans-serif;
+}
 
-/*Container*/
-.container {
-    display: flex;
-    margin: 0;
-    }
-
-/*Logo-container*/
+/* Logo Container */
 .logo-container {
-    display: flex;
-    padding-top: 0px;
-    padding-left: 65px;
-    z-index: 1;
-    }
+  display: flex;
+  padding-left: 65px;
+  z-index: 1;
+}
 
-/* Helloword */
+/* Hello World */
 .Helloword {
-    display: flex;
-    position: absolute;
-    left: 30px;
-    top: 100px;
-    width: auto;
-    height: auto;
-    padding-left: 40px;
-    z-index: 1;
-    }
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  z-index: 1;
+}
 
+/* Title and Subtitle */
 .title {
-    font-family: 'Bowlby One', sans-serif, bold;
-    font-size: 50px;
-    color: white;
-    margin: 0;
-    z-index: 1;
-    position: absolute;
-    left: 100px; /* Align with .TextBox */
-    top: 260px; /* Position below .TextBox */
-    }
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 260px;
+  margin: 0;
+  z-index: 1;
+}
 
 .subtitle {
-    font-family: 'Arya', sans-serif;
-    font-size: 15px;
-    color: white;
-    margin: 0;
-    position: absolute;
-    left: 100px; /* Align with .TextBox */
-    top: 320px; /* Position below the title */
-    z-index: 1;
-    }
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 320px;
+  margin: 0;
+  z-index: 1;
+}
 
-/* Button Group Below Subtitle */
+/* Button Group */
 .button-group {
-    position: absolute;
-    left: 100px; /* Align with .TextBox */
-    top: 360px; /* Position below the subtitle */
-    display: flex;
-    gap: 10px; /* Space between the buttons */
-    z-index: 1;
-    }
+  position: absolute;
+  left: 100px;
+  top: 360px;
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+}
+
+.download-cv-button,
+.my-work-button {
+  width: 121px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: 'Arya', sans-serif;
+}
 
 .download-cv-button {
-    width: 121px;
-    height: 34px;
-    background-color: #6319CD;
-    color: white;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    }
+  background-color: #6319CD;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
 
-    /* Hover*/
 .download-cv-button:hover {
-    background-color: #431188; /* Darker shade on hover */
-    }
+  background-color: #431188;
+}
 
 .my-work-button {
-    width: 121px;
-    height: 34px;
-    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
-    color: white;
-    border: 1px solid white;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid #fff;
+  transition: background-color 0.3s;
+}
 
 .my-work-button:hover {
-    background-color: rgb(34, 34, 34); /* Fully opaque black on hover */
-    }
+  background-color: #222;
+}
 
-/*Top-buttons*/
+/* Top Navigation */
 .top-buttons {
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    right: 15px;
-    top: 0;
-    flex-direction: row;
-    align-items: center;
-    }
+  display: flex;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  align-items: center;
+}
 
-/*Custom-button2*/
 .custom-button2 {
-    background-color: transparent;
-    color: white;
-    border: none;
-    padding: 15px; /* Adds padding of 15px on each side */
-    right: 35px;
-    height: 103px;
-    margin: 0; /* Removes margin to avoid space between buttons */
-    cursor: pointer;
-    transition: background-color 0.6s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  height: 103px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .custom-button2:hover {
-    background-color: #6319CD; /* Background color on hover */
-    }
+  background-color: #6319CD;
+}
 
-/*hire-me-button*/
 .hire-me-button {
-    width: 106px;
-    height: 44px;
-    margin: 15px;
-    background-color: #6319CD;
-    color: white;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.6s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+  width: 106px;
+  height: 44px;
+  margin: 15px;
+  background-color: #6319CD;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .hire-me-button:hover {
-    background-color: #431188; /* Darker shade on hover */
-    }
+  background-color: #431188;
+}
 
-/*Language-button*/
 .language-button {
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 7px;
-    background-color: black;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .language-button:hover {
-    background-color: #520db3; /* Background color on hover */
-    }
+  background-color: #520db3;
+}
 
-/*myport-container*/
+/* Portfolio Section */
 .myport-container {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin: 0;
-    right: 0px;
-    top: 103px;    
-    }
+  position: absolute;
+  right: 0;
+  top: 103px;
+}
 
-/*myport-person*/
 .Myport-person {
-    position: absolute;
-    width: auto;
-    height: auto;
-    right: 45px;
-    top: 125px;
-    }
+  position: absolute;
+  right: 45px;
+  top: 125px;
+}
 
-/*Arrow-container*/
 .Arrow-container {
-    position: absolute;
-    width: auto;
-    height: auto;
-    right: 630px;
-    top: 376px;
-    z-index: 1;
-    }
-    
-/*Arrow-button*/
+  position: absolute;
+  right: 630px;
+  top: 376px;
+  z-index: 1;
+}
+
 .Arrow-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: black;
-    cursor: pointer;
-    transition: background-color 0.6s;
-    }
-    
-/*Arrow-button:hover*/
+  border-radius: 50%;
+  background-color: #000;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+
 .Arrow-button:hover {
-    background-color: #520db3; /* Background color on hover */
-    }
+  background-color: #520db3;
+}
 
-/*My-Projects-container*/
+/* Projects Section */
 .My-Projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    justify-content: flex-start;
-    align-content: flex-end;
-    padding-top: 530px;
-    }
+  display: flex;
+  position: absolute;
+  padding-top: 530px;
+}
 
-/*line-text-container*/
 .line-text-container {
-    display: flex;
-    position: absolute;
-    justify-content: flex-start;
-    align-content: flex-end;
-    padding-top: 505px;
-    padding-left: 190px;
-    }
+  display: flex;
+  position: absolute;
+  padding-top: 505px;
+  padding-left: 190px;
+}
 
-/*line-text*/
 .line-text {
-    font-family: 'Bowlby One', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: white;
-    padding-top: 32px;
-    }
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 32px;
+}
 
-/*Project-cards-container*/
 .Project-cards-container {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 70px;
-    justify-content: flex-start;
-    align-content: flex-end;
-    padding-top: 640px;
-    padding-left: 6%;
-    }
-    
-/*cards*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  padding-top: 640px;
+  padding-left: 6%;
+}
+
 .cards {
-    display: flex;
-    width: 321px;
-    height: 147px;
-    border: none;
-    border-radius: 7px;
-    background-image: linear-gradient(to right, #230055, #8835FF);
-    }
+  display: flex;
+  width: 321px;
+  height: 147px;
+  border-radius: 7px;
+  background: linear-gradient(to right, #230055, #8835FF);
+}
 
-/*icon-cards*/
-    .icon-card0 {
-        width: 75px;
-        height: 75px;
-        padding-top: 46px;
-        padding-left: 10px;
-        }
+.cards img {
+  padding-left: 10px;
+  align-self: center;
+}
 
-    .icon-card1 {
-        width: 75px;
-        height: 75px;
-        padding-top: 44px;
-        padding-left: 10px;
-        }
-
-    .icon-card2 {
-        width: 92px;
-        height: 92px;
-        padding-top: 38px;
-        padding-left: 10px;
-        }
-        
-    .icon-card3 {
-        width: 80px;
-        height: 80px;
-        padding-top: 40px;
-        padding-left: 10px;
-        }
-
-    .icon-card4 {
-        width: 76px;
-        height: 76px;
-        padding-top: 40px;
-        padding-left: 10px;
-        }
-
-    .icon-card5 {
-        width: 80px;
-        height: 80px;
-        padding-top: 40px;
-        padding-left: 10px;
-        }
-    
-/*text-container-card*/
 .text-container-card {
-    display: flex;
-    justify-content: space-around;
-    height: 140px;
-    width: 200px;
-    padding-top: 0px;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 200px;
 }
 
 .title-card {
-    font-family: 'Bowlby One', sans-serif;
-    margin-bottom: -10px;
-    height: 20px;;
-    font-weight: 100;
-    font-size: 20px;
-    color: white;
-    z-index: 1;
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
+  margin: 0;
 }
 
 .paragraph-card {
-    font-family: 'Arya', sans-serif;
-    height: 20px;
-    font-weight: 100;
-    font-size: 10px;
-    line-height: 10px;
-    color: white;
-    z-index: 1;
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 10px;
+  color: #fff;
 }
 
 .button-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    margin-left: 17.5%;
-    width: 5rem;
-    height: 1.405rem;
-    background-color: #000000; opacity: 0.6;;
-    color: white;
-    border-radius: 0.4375rem;
-    border-color: white;
-    border: 0.5px solid white;
-    font-family: 'Arya', sans-serif;
-    font-size: 0.5rem;
-    font-weight: 400;
-    margin-top: 14px;
-    bottom: 0;
-    cursor: pointer;
+  align-self: flex-start;
+  width: 5rem;
+  height: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 7px;
+  font-size: 0.5rem;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-/*Contact-container*/
-.Contact-container {
-    display: grid;
-    justify-content: space-around, 15px;
-    flex-direction: column;
-    justify-self: flex-end;
-    margin: 20px;
-    grid-template-columns: repeat(1, 1fr);
-    padding-top: 4%;
-    padding-right: 6%;
-    z-index: 1;
-}
-
-/*Contact-img*/
+/* Contact Section */
 .Contact-img {
-    display: flex;
-    position: absolute;
-    justify-content: flex-start;
-    padding-left: 0.5%;
-    padding-top: 4%;
-    z-index: 2;
-    }
+  position: absolute;
+  padding-left: 0.5%;
+  padding-top: 4%;
+  z-index: 2;
+}
 
-/*contact-box*/
+.Contact-container {
+  display: grid;
+  margin: 20px;
+  padding-top: 4%;
+  padding-right: 6%;
+  grid-template-columns: 1fr;
+  z-index: 1;
+}
+
+.contact-box,
+.contact-box-d {
+  width: 496px;
+  margin-bottom: 1rem;
+}
+
 .contact-box {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 496px;
-    height: 40px;
-    color: gray;
-    background-color: black;
-    border: 1.8px solid #6319CD;
+  height: 40px;
+  color: gray;
+  background-color: #000;
+  border: 1.8px solid #6319CD;
+  padding: 0 10px;
 }
 
 .contact-box-d {
-    width: 496px;
-    height: 35px;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    border: none;
+  height: 100px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
 }
 
-/*contact-button*/
-.contact-button {
-    display: block;
-}
-
-/*Coment-button*/
 .Coment-button {
-    width: auto;
-    height: auto;
-    background-color: #6319CD;
-    color: white;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #6319CD;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
-
