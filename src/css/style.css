@@ -6,21 +6,6 @@ body {
   font-family: 'Arya', sans-serif;
 }
 
-/* Logo Container */
-.logo-container {
-  display: flex;  
-  padding-left: 65px;
-  z-index: 1;
-}
-
-/* Hello World */
-.Helloword {
-  position: absolute;
-  left: 70px;
-  top: 100px;
-  z-index: 1;
-}
-
 /* Title and Subtitle */
 .title {
   font-family: 'Bowlby One', sans-serif;
@@ -87,66 +72,7 @@ body {
   background-color: #222;
 }
 
-/* Top Navigation */
-.top-buttons {
-  display: flex;
-  position: absolute;
-  right: 15px;
-  top: 0;
-  align-items: center;
-}
 
-.custom-button2 {
-  background: transparent;
-  color: #fff;
-  border: none;
-  padding: 15px;
-  height: 103px;
-  cursor: pointer;
-  transition: background-color 0.6s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.custom-button2:hover {
-  background-color: #6319CD;
-}
-
-.hire-me-button {
-  width: 106px;
-  height: 44px;
-  margin: 15px;
-  background-color: #6319CD;
-  color: #fff;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: background-color 0.6s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hire-me-button:hover {
-  background-color: #431188;
-}
-
-.language-button {
-  width: 50px;
-  height: 50px;
-  background-color: #000;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.language-button:hover {
-  background-color: #520db3;
-}
 
 /* Portfolio Section */
 .myport-container {
