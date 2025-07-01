@@ -1,0 +1,192 @@
+/* Portfolio Section */
+.myport-container {
+  right: 0;
+  top: 103px;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.helloworld {
+    display: flex;
+}
+
+/* Title and Subtitle */
+.title {
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  left: 100px;
+  top: 260px;
+  margin: 0;
+  z-index: 1;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #fff;
+  left: 100px;
+  top: 320px;
+  margin: 0;
+  z-index: 1;
+}
+
+/* Button Group */
+.button-group {
+  position: absolute;
+  left: 100px;
+  top: 360px;
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+}
+
+.download-cv-button, .my-work-button {
+  width: 121px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: 'Arya', sans-serif;
+}
+
+.download-cv-button {
+  background-color: #6319CD;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.download-cv-button:hover {
+  background-color: #431188;
+}
+
+.my-work-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid #fff;
+  transition: background-color 0.3s;
+}
+
+.my-work-button:hover {
+  background-color: #222;
+}
+
+.myport {
+    display: flex;
+}
+
+.myport-img {
+    display: flex;
+}
+
+.Myport-person {
+  right: 45px;
+  top: 125px;
+}
+
+.person {
+    display: flex;
+}
+
+.Arrow-container {
+  right: 630px;
+  top: 376px;
+  z-index: 1;
+}
+
+.Arrow-button {
+  border-radius: 50%;
+  background-color: #000;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+
+.Arrow-button:hover {
+  background-color: #520db3;
+}
+
+
+/*Projects Section*/
+.my-projects {
+    display: flex;
+}
+
+.My-Projects-container {
+  display: flex;
+  padding-top: 530px;
+}
+
+.line-text-container {
+  display: flex;
+  padding-top: 505px;
+  padding-left: 190px;
+}
+
+.line-text {
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 32px;
+}
+
+.Project-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  padding-top: 640px;
+  padding-left: 6%;
+}
+
+.cards {
+  display: flex;
+  width: 321px;
+  height: 147px;
+  border-radius: 7px;
+  background: linear-gradient(to right, #230055, #8835FF);
+}
+
+.cards img {
+  padding-left: 10px;
+  align-self: center;
+}
+
+.text-container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 200px;
+}
+
+.title-card {
+  font-family: 'Bowlby One', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
+  margin: 0;
+}
+
+.paragraph-card {
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 10px;
+  color: #fff;
+}
+
+.button-card {
+  align-self: flex-start;
+  width: 5rem;
+  height: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 7px;
+  font-size: 0.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
