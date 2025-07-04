@@ -1,48 +1,41 @@
-/* Logo Container */
-.logo-container {
+/* Header-css */
+.header-navbar {
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+  padding-inline: 1.2vw;
+}
+
+.header-lg-mk-container {
     display: flex;  
     padding-left: 65px;
     z-index: 1;
   }
 
-/*about-me-navbar*/
-.about-me-navbar {
+.header-tp-buttons-navbar {
     display: flex;
-}
-
-/*logo-mk-navbar*/
-.logo-mk-navbar {
-    display: flex;
-}
-
-/*tp-buttons-navbar*/
-.tp-buttons-navbar {
-    display: flex;
-    position: absolute;
     right: 15px;
     top: 0;
     align-items: center;
   }
 
-  /*custom-button-navbar*/
-  .custom-button-navbar {
+  .header-custom-button-navbar {
     background: transparent;
     color: #fff;
     border: none;
     padding: 15px;
-    height: 103px;
+    height: 100%;
     cursor: pointer;
     transition: background-color 0.6s;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .custom-button-navbar:hover {
+  .header-custom-button-navbar:hover {
     background-color: #6319CD;
   }
 
-  /*hire-me-button-navbar*/
-  .hire-me-button-navbar {
+  .header-hire-me-button-navbar {
     width: 106px;
     height: 44px;
     margin: 15px;
@@ -56,12 +49,11 @@
     align-items: center;
     justify-content: center;
   }
-  .hire-me-button-navbar:hover {
+  .header-hire-me-button-navbar:hover {
     background-color: #431188;
   }
 
-  /*lang-button-navbar*/
-  .lang-button-navbar {
+  .header-lang-button-navbar {
     width: 50px;
     height: 50px;
     background-color: #000;
@@ -72,8 +64,6 @@
     align-items: center;
     justify-content: center;
   }
-  .lang-button-navbar:hover {
+  .header-lang-img-hover-navbar:hover {
     background-color: #520db3;
   }
-
-  /*lang-img-navbar*/

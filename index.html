@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./src/css/Header/header.css">
+    <link rel="stylesheet" href="./src/css/global-style.css">
+    <link rel="stylesheet" href="./src/css/header/header.css">
+    <link rel="stylesheet" href="./src/css/main/main.css">
+    <link rel="stylesheet" href="./src/css/footer/footer.css">
     <link rel="icon" href="assets/icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,133 +17,126 @@
 </head>
 
 <body>
-    <header class="about-me-navbar">
-        <img class="logo-mk-navbar" src="assets/Moun K Logo.svg" alt="Logo MounK">
-        <nav class="tp-buttons-navbar">
-            <button class="custom-button-navbar" data-translate="navbar.about">About Me</button>
-            <button class="custom-button-navbar" data-translate="navbar.projects">Projects</button>
-            <button class="custom-button-navbar" data-translate="navbar.languages">My Dev Language</button>
-            <button class="custom-button-navbar" data-translate="navbar.blog">Blog</button>
-            <button class="custom-button-navbar" data-translate="navbar.contact">Contact Us</button>
-            <button class="hire-me-button-navbar" data-translate="hire">Hire Me!</button>
-            <button class="lang-button-navbar" id="language-toggle">
-                <img class="lang-img-navbar" src="assets/language.svg" alt="Ícone de idioma">
+    <header class="header-navbar">
+        <div class="wrapper">
+            <img class="header-lg-mk-container" src="assets/Moun K Logo.svg" alt="Logo MounK">
+        </div>
+        <nav class="header-tp-buttons-navbar">
+            <button class="header-custom-button-navbar" data-translate="navbar.about">About Me</button>
+            <button class="header-custom-button-navbar" data-translate="navbar.projects">Projects</button>
+            <button class="header-custom-button-navbar" data-translate="navbar.languages">My Dev Language</button>
+            <button class="header-custom-button-navbar" data-translate="navbar.blog">Blog</button>
+            <button class="header-custom-button-navbar" data-translate="navbar.contact">Contact Us</button>
+            <button class="header-hire-me-button-navbar" data-translate="hire">Hire Me!</button>
+            <button class="header-lang-button-navbar" id="language-toggle">
+                <img class="header-lang-img-hover-navbar" src="assets/language.svg" alt="Ícone de idioma">
             </button>
         </nav>
-         
+        
     </header>
 
     <main>
-        <section class="myport-container">
-            <div class="logo-container">
-            <div class="helloword">
+        <section class="main-myport-container">
+        <div class= "main-about-me-container">
+            <div class="main-helloword">
                 <img src="assets/helloword.svg" alt="Hello World" class="helloword">
             </div>
-            <h1 class="title" data-translate="cover.title">Matheus Rodrigues</h1>
-            <p class="subtitle" data-translate="cover.subtitle">A Professional Web Developer</p>
-            <div class="button-group">
+            <h1 class="main-title" data-translate="cover.title">Matheus Rodrigues</h1>
+            <p class="main-subtitle" data-translate="cover.subtitle">A Professional Web Developer</p>
+            <div class="main-button-group">
                 <button class="download-cv-button" data-translate="cover.download">Download CV</button>
                 <button class="my-work-button" data-translate="cover.myWork">My Work</button>
             </div>
         </div>
-            <div class="myport">
-                <img class="myport-img" src="assets/Myport.svg" alt="Imagem de portfólio">
-                <div class="myport-person">
-                    <img class="person" src="assets/person.svg" alt="Foto de perfil">
-                    <div class="arrow-container">
-                        <img class="arrow-button" src="assets/arrow.svg" alt="Seta">
-                    </div>
-                </div>
-            </div>
         </section>
-        <section class="my-projects">
-            <div class="my-projects-container">
-                <img class="lines" src="assets/Lines.svg" alt="Linhas decorativas">
+        <section class="main-my-projects">
+            <div class="main-my-projects-container">
+                <img class="main-lines" src="assets/Lines.svg" alt="Linhas decorativas">
             </div>
-            <div class="line-text-container">
-                <h2 class="line-text" data-translate="projects">Projects</h2>
+            <div class="main-line-text-container">
+                <h2 class="main-line-text" data-translate="projects">Projects</h2>
             </div>
         </section>
 
-        <section class="project-cards-container" id="projects">
-            <div class="cards">
-                <img class="icon-card0" src="assets/T-Shirt.svg" alt="Ícone de camiseta">
-                <div class="text-container-card">
-                    <h3 class="title-card">DK's Looks</h3>
-                    <p class="paragraph-card">The style that keeps up with your rhythm. Dress with attitude. Dress with DK’s Looks!!!</p>
-                    <button class="button-card">LEARN MORE</button>
+        <section class="main-project-cards-container" id="projects">
+            <div class="main-cards">
+                <img class="main-icon-card0" src="assets/T-Shirt.svg" alt="Ícone de camiseta">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">DK's Looks</h3>
+                    <p class="main-paragraph-card">The style that keeps up with your rhythm. Dress with attitude. Dress with DK’s Looks!!!</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
 
-            <div class="cards">
-                <img class="icon-card1" src="assets/OneTap.svg" alt="Logo OneTap">
-                <div class="text-container-card">
-                    <h3 class="title-card">One Tap</h3>
-                    <p class="paragraph-card">OneTap - With technology and creativity, we connect people through sound!</p>
-                    <button class="button-card">LEARN MORE</button>
+            <div class="main-cards">
+                <img class="main-icon-card1" src="assets/OneTap.svg" alt="Logo OneTap">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">One Tap</h3>
+                    <p class="main-paragraph-card">OneTap - With technology and creativity, we connect people through sound!</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
 
-            <div class="cards">
-                <img class="icon-card2" src="assets/One Piece.svg" alt="Logo One Piece">
-                <div class="text-container-card">
-                    <h3 class="title-card">One Piece</h3>
-                    <p class="paragraph-card">Luffy and his crew in search of the One Piece treasure. Devil Fruit and Haki, unforgettable battles and much more.</p>
-                    <button class="button-card">LEARN MORE</button>
+            <div class="main-cards">
+                <img class="main-icon-card2" src="assets/One Piece.svg" alt="Logo One Piece">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">One Piece</h3>
+                    <p class="main-paragraph-card">Luffy and his crew in search of the One Piece treasure. Devil Fruit and Haki, unforgettable battles and much more.</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
 
-            <div class="cards">
-                <img class="icon-card3" src="assets/StartZ.svg" alt="Logo StartZ">
-                <div class="text-container-card">
-                    <h3 class="title-card">StartZ</h3>
-                    <p class="paragraph-card">StartZ - Our mission is to transform ideas into unforgettable adventures, phase after phase.</p>
-                    <button class="button-card">LEARN MORE</button>
+            <div class="main-cards">
+                <img class="main-icon-card3" src="assets/StartZ.svg" alt="Logo StartZ">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">StartZ</h3>
+                    <p class="main-paragraph-card">StartZ - Our mission is to transform ideas into unforgettable adventures, phase after phase.</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
 
-            <div class="cards">
-                <img class="icon-card4" src="assets/ParTour.svg" alt="Logo Partour">
-                <div class="text-container-card">
-                    <h3 class="title-card">PartTour</h3>
-                    <p class="paragraph-card">Partour - Our goal is to bring passion for music to every note!</p>
-                    <button class="button-card">LEARN MORE</button>
+            <div class="main-cards">
+                <img class="main-icon-card4" src="assets/ParTour.svg" alt="Logo Partour">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">PartTour</h3>
+                    <p class="main-paragraph-card">Partour - Our goal is to bring passion for music to every note!</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
 
-            <div class="cards">
-                <img class="icon-card5" src="assets/Dream Coffee.svg" alt="Logo Dream Coffee">
-                <div class="text-container-card">
-                    <h3 class="title-card">Dream Coffee</h3>
-                    <p class="paragraph-card">Dream Coffee – One coffee, infinite sensations! Each cup tells a story of aroma and flavor.</p>
-                    <button class="button-card">LEARN MORE</button>
+            <div class="main-cards">
+                <img class="main-icon-card5" src="assets/Dream Coffee.svg" alt="Logo Dream Coffee">
+                <div class="main-text-container-card">
+                    <h3 class="main-title-card">Dream Coffee</h3>
+                    <p class="main-paragraph-card">Dream Coffee – One coffee, infinite sensations! Each cup tells a story of aroma and flavor.</p>
+                    <button class="main-button-card">LEARN MORE</button>
                 </div>
             </div>
         </section>
     </main>
 
 <footer>
-    <section class="contact">
-            <img class="contact-img" src="assets/Contact-img.svg" alt="Imagem de contato">
-            <form class="contact-container" action="#" method="POST">
-                <label for="nome" class="sr-only">Nome</label>
-                <input class="contact-box" type="text" id="nome" name="nome" placeholder="Nome">
+    <section class="footer-cont">
+            <img class="footer-cont-img" src="assets/Contact-img.svg" alt="Imagem de contato">
+            <form class="footer-cont-container" action="#" method="POST">
+                <label for="nome" class="footer-cont-box">Nome</label>
+                <input class="footer-cont-box" type="text" id="nome" name="nome" placeholder="Nome">
 
-                <label for="email" class="sr-only">Email</label>
-                <input class="contact-box" type="email" id="email" name="email" placeholder="Email">
+                <label for="email" class="footer-cont-box">Email</label>
+                <input class="footer-cont-box" type="email" id="email" name="email" placeholder="Email">
 
-                <label for="opcoes" class="sr-only">Selecione uma opção</label>
-                <select class="contact-box" id="opcoes" name="opcoes">
+                <label for="opcoes" class="footer-cont-box">Selecione uma opção</label>
+                <select class="footer-cont-box" id="opcoes" name="opcoes">
                     <option value="">Selecione uma opção</option>
                     <option value="opcao1">Opção 1</option>
                     <option value="opcao2">Opção 2</option>
                     <option value="opcao3">Opção 3</option>
                 </select>
 
-                <label for="comentario" class="sr-only">Comentário</label>
-                <textarea class="contact-box-d" id="comentario" name="comentario" rows="4" placeholder="Comentário"></textarea>
+                <label for="comentario" class="footer-cont-box-d">Comentário</label>
+                <textarea class="footer-cont-box-d" id="comentario" name="comentario" rows="4" placeholder="Comentário"></textarea>
 
-                <button class="coment-button" type="submit">Enviar</button>
+                <button class="footer-coment-button" type="submit">Enviar</button>
             </form>
         </section>
 </footer>
