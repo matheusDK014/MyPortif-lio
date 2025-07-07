@@ -1,7 +1,7 @@
 /* Header-css */
 .header-navbar {
   display: flex;
-  height: 25vh;
+  height: 18vh;
   justify-content: space-between;
   padding-inline: 1.2vw;
 }
@@ -10,6 +10,7 @@
     display: flex;  
     padding-left: 65px;
     z-index: 1;
+    width: 13vw;
   }
 
 .header-tp-buttons-navbar {
@@ -54,9 +55,8 @@
   }
 
   .header-lang-button-navbar {
-    width: 50px;
-    height: 50px;
-    background-color: #000;
+    height: 8vh;
+    background-color: #ffffff;
     border: none;
     border-radius: 7px;
     cursor: pointer;
