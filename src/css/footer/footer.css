@@ -4,12 +4,6 @@
     display: flex;
 }
 
-.footer-cont-img {
-  padding-left: 0.5%;
-  padding-top: 4%;
-  z-index: 2;
-}
-
 .footer-cont-container {
   display: grid;
   margin: 20px;
