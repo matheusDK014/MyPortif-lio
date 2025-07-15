@@ -141,15 +141,15 @@
     align-items: center;
     width: 321px;
     height: auto;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     border-radius: 7px;
-    background: linear-gradient(to right, #230055, #8835FF);
+    background: linear-gradient(to top, #8835FF, #230055);
     justify-content: space-between;
   }
 
   .main-learn-more {
     width: 100%;
-    background-color: red;
+    background: linear-gradient(to top, #8835FF, #230055);
     padding: 10px 0 10px 0;
     border-radius: 0px 0px 7px 7px;
   }
