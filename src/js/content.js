@@ -144,3 +144,20 @@
         ]
     }
 }; */
+
+/* Usar dps
+
+<li class="nav-item mb-2">
+        <a href="#" class="nav-link p-0 text-body-secondary">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">X</font>
+            </font>
+        </a>
+    </li>
+    
+    <h5>
+        <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Redes Sociais</font>
+        </font>
+    </h5>
+     */

@@ -113,7 +113,7 @@
 
   .main-line-text-container {
     display: flex;
-    padding-left: 6px;
+    padding: 24px 0 0 6px;
   }
 
   .main-lines {
@@ -145,6 +145,10 @@
     border-radius: 7px;
     background: linear-gradient(to top, #8835FF, #230055);
     justify-content: space-between;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  }
+  .card-container:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
   }
 
   .main-learn-more {
@@ -178,9 +182,9 @@
   }
 
   .main-paragraph-card {
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: 100;
-    line-height: 10px;
+    line-height: 13px;
     color: #fff;
   }
 
@@ -189,13 +193,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 1.4rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    width: 5.2rem;
+    height: 1.5rem;
+    background-color: black;
     color: #fff;
     border: 0.5px solid #fff;
     border-radius: 7px;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: 400;
     cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  .main-button-card:hover {
+    background-color: #1e0347;
   }

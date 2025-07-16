@@ -8,9 +8,13 @@
 
 .header-lg-mk-container {
     display: flex;  
-    padding-left: 65px;
+    padding: 20px 0 0 25px;
     z-index: 1;
     width: 13vw;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  }
+  .header-lg-mk-container:hover{
+    transform: scale(1.3); /* Aumenta o tamanho em 10% */
   }
 
 .header-tp-buttons-navbar {
