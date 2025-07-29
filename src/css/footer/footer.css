@@ -1,33 +1,47 @@
 .container-footer {
-    padding: 100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 50px 0;
     background: linear-gradient(to top, #1a003d, #0a0018,#000000);
   }
 
-
-.mb-md-0.text-body-secondary{
-    color: #fff !important;
+.footer-logo {
+    width: 110px;
+    height: 110px;
 }
 
-.redes-sociais .bi, [aria-label="Bootstrap"] {
-    fill: #fff;
+.footer-text-empresa {
+    margin: 0 0 0 20px;
+    color: white;
 }
 
-.bi {
-    margin: 0 25px 0 0;
-}
-
-[aria-label="Bootstrap"] {
-    margin: 0 0 0 25px;
-}
-
-.form-label {
+.footer-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: black;
     color: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0 0 0 10px;
+    margin: 0 0 16px 20px;
 }
 
-.form-text {
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 100px;
+    height: 30px;
+    background-color: black;
     color: #fff;
-}
-
-.form-check-label {
-    color: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
