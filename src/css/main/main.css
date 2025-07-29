@@ -128,7 +128,9 @@
   }
 
   .main-project-cards-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     padding-top: 20px;
