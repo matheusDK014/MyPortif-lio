@@ -60,4 +60,5 @@ document.getElementById("language-toggle").addEventListener("click", () => {
 });
 
 updateProjectsLanguage("en");
-updateTranslatedComponents("en"); */
+updateTranslatedComponents("en");
+*/

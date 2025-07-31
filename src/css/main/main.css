@@ -3,6 +3,7 @@
   .main-myport-container {
     right: 0;
     top: 103px;
+    margin-top: 18vh;
     background-image: url(../../../assets/Myportf.jpg);
     background-repeat: no-repeat;
     background-position: right top;

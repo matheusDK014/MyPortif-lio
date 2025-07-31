@@ -1,9 +1,14 @@
 /* Header-css */
 .header-navbar {
   display: flex;
+  position: fixed;
+  width: 100%;
   height: 18vh;
   justify-content: space-between;
   padding-inline: 1.2vw;
+  background-color: black;
+  top: 0;
+  z-index: 10;
 }
 
 .header-lg-mk-container {
@@ -36,6 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
   }
   .header-custom-button-navbar:hover {
     background-color: #6319CD;
@@ -72,4 +78,13 @@
   }
   .header-lang-button-navbar:hover {
     background-color: #431188;
+  }
+
+  .tools-buttons-navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .tools-buttons-navbar button {
+    display: inline;
   }
