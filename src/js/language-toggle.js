@@ -1,23 +1,34 @@
-/*let currentLangIndex = 0;
+let currentLangIndex = 0;
 const languages = ["en", "pt", "es"];
 
 function updateProjectsLanguage(lang) {
-    const container = document.querySelector(".Project-cards-container");
+    const container = document.querySelector("#projects");
     container.innerHTML = "";
 
     window.content[lang].projects
         .map((project, index) => {
             const card = document.createElement("div");
-            card.className = "cards";
-
+            card.className = "card-container";
+            const buttonLearnMore = window.content[lang].projectButton;    
             card.innerHTML = `
-        <img class="icon-card${index}" src="${project.icon}" alt="">
-        <div class="text-container-card">
-          <h3 class="title-card"><strong>${project.title}</strong></h3>
-          <p class="paragraph-card">${project.description}</p>
-          <button class="button-card">LEARN MORE</button>
+        <div class="main-cards">
+            <img
+              class="main-icon-${index}"
+              src="${project.icon}"
+              alt="Ícone de camiseta"
+            />
+            <div class="main-text-container-card">
+              <h3 class="main-title-card">${project.title}</h3>
+              <p class="main-paragraph-card">
+                ${project.description}
+              </p>
+            </div>
+          </div>
+          <div class="main-learn-more">
+            <button class="main-button-card">${buttonLearnMore}</button>
         </div>
       `;
+      console.log(card)
             return card;
         })
         .forEach((card) => container.appendChild(card));
@@ -61,4 +72,3 @@ document.getElementById("language-toggle").addEventListener("click", () => {
 
 updateProjectsLanguage("en");
 updateTranslatedComponents("en");
-*/

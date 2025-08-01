@@ -1,4 +1,4 @@
-/*window.content = {
+window.content = {
     pt: {
         navbar: {
             about: "Sobre",
@@ -45,7 +45,8 @@
                 title: "Dream Coffee",
                 description: "Dream Coffee – Um café, infinitas sensações! Cada xícara conta uma história de aroma e sabor."
             }
-        ]
+        ],
+        projectButton: "Saiba Mais"
     },
     en: {
         navbar: {
@@ -93,7 +94,8 @@
                 title: "Dream Coffee",
                 description: "Dream Coffee – One coffee, infinite sensations! Each cup tells a story of aroma and flavor."
             }
-        ]
+        ],
+        projectButton: "Learn More"
     },
     es: {
         navbar: {
@@ -141,7 +143,7 @@
                 title: "Dream Coffee",
                 description: "Dream Coffee – ¡Un café, infinitas sensaciones! Cada taza cuenta una historia de aroma y sabor."
             }
-        ]
+        ],
+        projectButton: "Saber más"
     }
 };
-*/
