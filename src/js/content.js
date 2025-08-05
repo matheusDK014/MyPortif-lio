@@ -6,7 +6,7 @@ window.content = {
             languages: "Linguagens Dev",
             blog: "Blog",
             contact: "Contato",
-            hire: "Contrate-me",
+            hire: "Contrate-me!",
         },
         cover: {
             title: "Matheus Rodrigues",
@@ -18,7 +18,8 @@ window.content = {
             {
                 icon: "assets/T-Shirt.svg",
                 title: "DK's Looks",
-                description: "O estilo que acompanha seu ritmo. Vista-se com atitude. Vista-se com DK’s Looks!!!"
+                description: "O estilo que acompanha seu ritmo. Vista-se com atitude. Vista-se com DK’s Looks!!!",
+                link: "https://www.figma.com/design/VysR1n9wdqUBqWgAoSKuQ4/DK%22s-Looks?node-id=466-2&t=cyniYRqkyruAkC5U-1"
             },
             {
                 icon: "assets/OneTap.svg",
@@ -55,7 +56,7 @@ window.content = {
             languages: "Dev Languages",
             blog: "Blog",
             contact: "Contact",
-            hire: "Hire me",
+            hire: "Hire me!",
         },
         cover: {
             title: "Matheus Rodrigues",
@@ -67,7 +68,9 @@ window.content = {
             {
                 icon: "assets/T-Shirt.svg",
                 title: "DK's Looks",
-                description: "The style that keeps up with your rhythm. Dress with attitude. Dress with DK’s Looks!!!"
+                description: "The style that keeps up with your rhythm. Dress with attitude. Dress with DK’s Looks!!!",
+                link: "https://www.figma.com/design/VysR1n9wdqUBqWgAoSKuQ4/DK%22s-Looks?node-id=466-2&t=cyniYRqkyruAkC5U-1"
+
             },
             {
                 icon: "assets/OneTap.svg",
@@ -104,7 +107,7 @@ window.content = {
             languages: "Lenguajes Dev",
             blog: "Blog",
             contact: "Contacto",
-            hire: "Contrátame",
+            hire: "Contrátame!",
         },
         cover: {
             title: "Matheus Rodrigues",
@@ -116,7 +119,9 @@ window.content = {
             {
                 icon: "assets/T-Shirt.svg",
                 title: "DK's Looks",
-                description: "El estilo que sigue tu ritmo. ¡Vístete con actitud, vístete con DK’s Looks!"
+                description: "El estilo que sigue tu ritmo. ¡Vístete con actitud, vístete con DK’s Looks!",
+                link: "https://www.figma.com/design/VysR1n9wdqUBqWgAoSKuQ4/DK%22s-Looks?node-id=466-2&t=cyniYRqkyruAkC5U-1"
+
             },
             {
                 icon: "assets/OneTap.svg",

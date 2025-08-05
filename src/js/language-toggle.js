@@ -25,7 +25,7 @@ function updateProjectsLanguage(lang) {
             </div>
           </div>
           <div class="main-learn-more">
-            <button class="main-button-card">${buttonLearnMore}</button>
+            <a href= "${project.link}" class="main-link-card" target="_blank">${buttonLearnMore}</a>
         </div>
       `;
       console.log(card)
