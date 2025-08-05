@@ -60,6 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
   }
   .header-hire-me-button-navbar:hover {
     background-color: #431188;
